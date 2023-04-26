@@ -1,7 +1,7 @@
 
-# Exercício E2 - Aquecimento com Bison 
+# Exercício E5 - Aquecimento com Bison 
 
-- Copiar para a pasta E2 os seus arquivos .l e .y que estão na pasta E1 (exercício E1)
+- Copiar para a pasta E5 os seus arquivos .l e .y que estão na pasta E1 (exercício E1)
 
 - Alterar calc.y para criar regras de produção para a gramática:
 ``` 
@@ -16,6 +16,7 @@ expr -> expr + expr
 ```
 
 - Alterar calc.y para definir novo(s) token(s), se necessário;
+Remover o token para o símbolo '|'.
 
 - Alterar calc.y para usar nas regras de produção os nomes de tokens definidos com %token
 
@@ -26,4 +27,9 @@ A depender do resultado retornado por yyparse(), imprimir na saída padrão "pro
 
 - Rodar flex, bison (```bison -d calc.y''') e gerar executável ``calc''.
 
-*Importante*: Aceitar convite enviado via Github Classroom e submeter sua resposta via repositório criado automaticamente para este exercício Github Classroom.  Respostas em repositórios pessoais não serão consideradas.
+*Importante*: 
+- Aceitar convite enviado via Github Classroom e 
+submeter sua resposta via repositório criado automaticamente para este exercício do Github Classroom.  
+- Respostas em repositórios pessoais não serão consideradas.
+- Não modificar a estrutura nem a visibilidade do repositório.
+
